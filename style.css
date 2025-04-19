@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 10px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+h1, h2 {
+    text-align: center;
+}
+.menu, .section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+}
+button:hover {
+    background-color: #45a049;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+ul#results {
+    list-style: none;
+    padding: 0;
+}
+ul#results li {
+    background: #e8e8e8;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul#results li:hover {
+    background: #d3ffd3;
+}
+#detailContent p {
+    margin: 8px 0;
+}
